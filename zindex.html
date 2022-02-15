@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zindex</title>
+    <style>
+        div {
+            position: absolute;
+            background: pink;
+        }
+
+        .one {
+            z-index: 5;
+
+        }
+
+        .two {
+            z-index: 4;
+
+
+        }
+
+        .red {
+            width: 20px;
+            height: 20px;
+            background: red;
+            z-index: 5;
+        }
+
+        .blue {
+            width: 20px;
+            height: 20px;
+            background: greenyellow;
+            z-index: 4;
+        }
+
+        .yellow {
+            width: 20px;
+            height: 20px;
+            background: violet;
+            z-index: 6;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="one">platzi</div>
+    <div class="two">master</div>
+
+    <section>
+        <div class="red">redr</div>
+        <div class="blue">blue
+
+            <div class="yellow">yellow</div>
+
+        </div>
+        
+    </section>
+</body>
+</html>
